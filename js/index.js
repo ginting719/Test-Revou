@@ -12,6 +12,6 @@ function calculateBmi() {
         let bmi = (weight / ((height / 100) ** 2)).toFixed(2);
         resultBmi.textContent = bmi;
     } else {
-        alert('Please fill in all fields');
+        alert('Harap isi semua kolom yang tersedia');
     }
 }
